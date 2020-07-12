@@ -36,4 +36,20 @@ extension UITableView {
       func endRefreshing() {
         refreshControl?.endRefreshing()
       }
+    
+    func showEmptyState(message:String) {
+        let label = UILabel()
+        label.text = message
+        label.numberOfLines = 0
+        label.font = UIFont.systemFont(ofSize: 20, weight: .semibold)
+        label.textAlignment = .center
+        label.center = self.center
+        self.separatorStyle = .none
+        self.backgroundView = label
+    }
+    
+    func hideEmptyState() {
+        self.backgroundView = nil
+        self.separatorStyle = .singleLine
+    }
 }

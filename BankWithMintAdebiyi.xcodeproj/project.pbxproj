@@ -18,6 +18,8 @@
 		50F583B624BBAEEB0004C2DD /* LatestCommitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F583B524BBAEEB0004C2DD /* LatestCommitsViewController.swift */; };
 		50F583B924BBAFB30004C2DD /* LatestCommitsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F583B724BBAFB30004C2DD /* LatestCommitsTableViewCell.swift */; };
 		50F583BA24BBAFB30004C2DD /* LatestCommitsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50F583B824BBAFB30004C2DD /* LatestCommitsTableViewCell.xib */; };
+		50F583BC24BBB4BB0004C2DD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F583BB24BBB4BB0004C2DD /* NetworkManager.swift */; };
+		50F583BE24BBB99C0004C2DD /* CustomHttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F583BD24BBB99C0004C2DD /* CustomHttpError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		50F583B524BBAEEB0004C2DD /* LatestCommitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestCommitsViewController.swift; sourceTree = "<group>"; };
 		50F583B724BBAFB30004C2DD /* LatestCommitsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestCommitsTableViewCell.swift; sourceTree = "<group>"; };
 		50F583B824BBAFB30004C2DD /* LatestCommitsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LatestCommitsTableViewCell.xib; sourceTree = "<group>"; };
+		50F583BB24BBB4BB0004C2DD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		50F583BD24BBB99C0004C2DD /* CustomHttpError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHttpError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 				50F583AE24BBABC40004C2DD /* App */,
 				50F583B024BBAC600004C2DD /* Model */,
 				50F583AF24BBABE10004C2DD /* Scenes */,
+				50F583BB24BBB4BB0004C2DD /* NetworkManager.swift */,
+				50F583BD24BBB99C0004C2DD /* CustomHttpError.swift */,
 			);
 			path = BankWithMintAdebiyi;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 				50F5839124BBABB60004C2DD /* ViewController.swift in Sources */,
 				50F5838D24BBABB60004C2DD /* AppDelegate.swift in Sources */,
 				50F583B924BBAFB30004C2DD /* LatestCommitsTableViewCell.swift in Sources */,
+				50F583BC24BBB4BB0004C2DD /* NetworkManager.swift in Sources */,
 				50F583B624BBAEEB0004C2DD /* LatestCommitsViewController.swift in Sources */,
+				50F583BE24BBB99C0004C2DD /* CustomHttpError.swift in Sources */,
 				50F583B224BBAC8F0004C2DD /* GithubCommitResponseModel.swift in Sources */,
 				50F5838F24BBABB60004C2DD /* SceneDelegate.swift in Sources */,
 			);

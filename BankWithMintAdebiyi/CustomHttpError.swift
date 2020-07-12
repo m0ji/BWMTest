@@ -13,6 +13,7 @@ enum CustomHttpError: String, Error {
     case NotJson
     case BadRequest
     case ServerError
+    case bodyError
     case Unknown
 }
 
@@ -25,6 +26,8 @@ extension CustomHttpError: LocalizedError {
             return "BadRequest"
         case .ServerError:
             return "ServerError"
+        case .bodyError:
+            return "GET requests cannot have a body"
         case .Unknown:
             return "Unknown"
         }

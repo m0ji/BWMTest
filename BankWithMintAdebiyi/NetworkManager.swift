@@ -22,7 +22,7 @@ class NetworkManager {
         config.timeoutIntervalForRequest = 60
     }
     
-    func makeRequest<T:Decodable>(requestType:RequestType, url:String, params: Dictionary<String,Any>?,   requestBody:Dictionary<String,Any>?, completionHandler: @escaping (Result<T?,Error>)-> ()){
+    func makeRequest<T:Decodable>(requestType:RequestType, url:String, params: Dictionary<String,Any>?,   requestBody:Dictionary<String,Any>?, completionHandler: @escaping (Result<T,Error>)-> ()){
         
         var urlComponent = URLComponents(string: url)
         

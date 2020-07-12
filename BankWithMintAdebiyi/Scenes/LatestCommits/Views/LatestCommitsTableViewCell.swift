@@ -13,11 +13,15 @@ class LatestCommitsTableViewCell: UITableViewCell {
     @IBOutlet private weak var authorLabel: UILabel!
     @IBOutlet private weak var timeLabel: UILabel!
     
-    func configureCell(data:Any) {
+    func configureCell(with data: GithubCommitResponse) {
+        authorLabel.text = data.commit?.author?.name
+        timeLabel.text = data.commit?.author?.date
+        cellImage.loadImageAsync(from: URL(string: data.committer?.avatar_url ?? ""))
     }
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        cellImage.layer.cornerRadius = 25
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

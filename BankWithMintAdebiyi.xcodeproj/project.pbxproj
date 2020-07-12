@@ -79,13 +79,9 @@
 		50F5838B24BBABB60004C2DD /* BankWithMintAdebiyi */ = {
 			isa = PBXGroup;
 			children = (
-				50F5838C24BBABB60004C2DD /* AppDelegate.swift */,
-				50F5838E24BBABB60004C2DD /* SceneDelegate.swift */,
-				50F5839024BBABB60004C2DD /* ViewController.swift */,
-				50F5839224BBABB60004C2DD /* Main.storyboard */,
-				50F5839524BBABB80004C2DD /* Assets.xcassets */,
 				50F5839724BBABB80004C2DD /* LaunchScreen.storyboard */,
-				50F5839A24BBABB80004C2DD /* Info.plist */,
+				50F583AE24BBABC40004C2DD /* App */,
+				50F583AF24BBABE10004C2DD /* Scenes */,
 			);
 			path = BankWithMintAdebiyi;
 			sourceTree = "<group>";
@@ -97,6 +93,26 @@
 				50F583A524BBABB80004C2DD /* Info.plist */,
 			);
 			path = BankWithMintAdebiyiTests;
+			sourceTree = "<group>";
+		};
+		50F583AE24BBABC40004C2DD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				50F5839A24BBABB80004C2DD /* Info.plist */,
+				50F5838C24BBABB60004C2DD /* AppDelegate.swift */,
+				50F5838E24BBABB60004C2DD /* SceneDelegate.swift */,
+				50F5839524BBABB80004C2DD /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		50F583AF24BBABE10004C2DD /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				50F5839024BBABB60004C2DD /* ViewController.swift */,
+				50F5839224BBABB60004C2DD /* Main.storyboard */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

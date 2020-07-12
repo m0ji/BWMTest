@@ -15,6 +15,9 @@
 		50F5839924BBABB80004C2DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F5839724BBABB80004C2DD /* LaunchScreen.storyboard */; };
 		50F583A424BBABB80004C2DD /* BankWithMintAdebiyiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F583A324BBABB80004C2DD /* BankWithMintAdebiyiTests.swift */; };
 		50F583B224BBAC8F0004C2DD /* GithubCommitResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F583B124BBAC8F0004C2DD /* GithubCommitResponseModel.swift */; };
+		50F583B624BBAEEB0004C2DD /* LatestCommitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F583B524BBAEEB0004C2DD /* LatestCommitsViewController.swift */; };
+		50F583B924BBAFB30004C2DD /* LatestCommitsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F583B724BBAFB30004C2DD /* LatestCommitsTableViewCell.swift */; };
+		50F583BA24BBAFB30004C2DD /* LatestCommitsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50F583B824BBAFB30004C2DD /* LatestCommitsTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		50F583A324BBABB80004C2DD /* BankWithMintAdebiyiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankWithMintAdebiyiTests.swift; sourceTree = "<group>"; };
 		50F583A524BBABB80004C2DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50F583B124BBAC8F0004C2DD /* GithubCommitResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubCommitResponseModel.swift; sourceTree = "<group>"; };
+		50F583B524BBAEEB0004C2DD /* LatestCommitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestCommitsViewController.swift; sourceTree = "<group>"; };
+		50F583B724BBAFB30004C2DD /* LatestCommitsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestCommitsTableViewCell.swift; sourceTree = "<group>"; };
+		50F583B824BBAFB30004C2DD /* LatestCommitsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LatestCommitsTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +118,9 @@
 		50F583AF24BBABE10004C2DD /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				50F5839024BBABB60004C2DD /* ViewController.swift */,
 				50F5839224BBABB60004C2DD /* Main.storyboard */,
+				50F583B324BBAEBC0004C2DD /* LatestCommits */,
+				50F5839024BBABB60004C2DD /* ViewController.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -124,6 +131,24 @@
 				50F583B124BBAC8F0004C2DD /* GithubCommitResponseModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		50F583B324BBAEBC0004C2DD /* LatestCommits */ = {
+			isa = PBXGroup;
+			children = (
+				50F583B524BBAEEB0004C2DD /* LatestCommitsViewController.swift */,
+				50F583B424BBAECE0004C2DD /* Views */,
+			);
+			path = LatestCommits;
+			sourceTree = "<group>";
+		};
+		50F583B424BBAECE0004C2DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				50F583B724BBAFB30004C2DD /* LatestCommitsTableViewCell.swift */,
+				50F583B824BBAFB30004C2DD /* LatestCommitsTableViewCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +235,7 @@
 				50F5839924BBABB80004C2DD /* LaunchScreen.storyboard in Resources */,
 				50F5839624BBABB80004C2DD /* Assets.xcassets in Resources */,
 				50F5839424BBABB60004C2DD /* Main.storyboard in Resources */,
+				50F583BA24BBAFB30004C2DD /* LatestCommitsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +255,8 @@
 			files = (
 				50F5839124BBABB60004C2DD /* ViewController.swift in Sources */,
 				50F5838D24BBABB60004C2DD /* AppDelegate.swift in Sources */,
+				50F583B924BBAFB30004C2DD /* LatestCommitsTableViewCell.swift in Sources */,
+				50F583B624BBAEEB0004C2DD /* LatestCommitsViewController.swift in Sources */,
 				50F583B224BBAC8F0004C2DD /* GithubCommitResponseModel.swift in Sources */,
 				50F5838F24BBABB60004C2DD /* SceneDelegate.swift in Sources */,
 			);

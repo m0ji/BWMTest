@@ -9,7 +9,13 @@
 import UIKit
 
 class LatestCommitsTableViewCell: UITableViewCell {
-
+    @IBOutlet private weak var cellImage: UIImageView!
+    @IBOutlet private weak var authorLabel: UILabel!
+    @IBOutlet private weak var timeLabel: UILabel!
+    
+    func configureCell(data:Any) {
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
@@ -18,4 +24,8 @@ class LatestCommitsTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
     }
     
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        cellImage.image = UIImage.init(systemName: "person.circle")
+    }
 }

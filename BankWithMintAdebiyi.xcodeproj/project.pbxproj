@@ -97,15 +97,13 @@
 		50F5838B24BBABB60004C2DD /* BankWithMintAdebiyi */ = {
 			isa = PBXGroup;
 			children = (
+				50F583CB24BBDF7B0004C2DD /* Networking */,
 				50F5839A24BBABB80004C2DD /* Info.plist */,
 				50F583AE24BBABC40004C2DD /* App */,
 				50F583BF24BBBE310004C2DD /* Extensions */,
-				50F583C824BBD82C0004C2DD /* Helper */,
+				50F583C824BBD82C0004C2DD /* Helpers */,
 				50F583B024BBAC600004C2DD /* Model */,
 				50F583AF24BBABE10004C2DD /* Scenes */,
-				50F583C424BBC7B20004C2DD /* GithubService.swift */,
-				50F583BB24BBB4BB0004C2DD /* NetworkManager.swift */,
-				50F583BD24BBB99C0004C2DD /* CustomHttpError.swift */,
 			);
 			path = BankWithMintAdebiyi;
 			sourceTree = "<group>";
@@ -174,12 +172,22 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		50F583C824BBD82C0004C2DD /* Helper */ = {
+		50F583C824BBD82C0004C2DD /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
 				50F583C924BBD8470004C2DD /* DateFormatterHelper.swift */,
+				50F583BD24BBB99C0004C2DD /* CustomHttpError.swift */,
 			);
-			path = Helper;
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		50F583CB24BBDF7B0004C2DD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				50F583BB24BBB4BB0004C2DD /* NetworkManager.swift */,
+				50F583C424BBC7B20004C2DD /* GithubService.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

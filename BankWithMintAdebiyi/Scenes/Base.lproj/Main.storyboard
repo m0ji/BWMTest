@@ -24,7 +24,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="0.98431372549019602" green="0.98431372549019602" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="kvp-jt-8Jb" firstAttribute="leading" secondItem="NCf-kg-NUR" secondAttribute="leading" id="PaK-vV-8DF"/>
                             <constraint firstItem="NCf-kg-NUR" firstAttribute="trailing" secondItem="kvp-jt-8Jb" secondAttribute="trailing" id="Ydg-Wz-dKp"/>

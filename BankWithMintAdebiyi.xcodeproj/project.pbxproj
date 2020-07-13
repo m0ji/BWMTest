@@ -22,6 +22,7 @@
 		50F583C124BBBE8B0004C2DD /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F583C024BBBE8B0004C2DD /* UITableView+Extensions.swift */; };
 		50F583C524BBC7B20004C2DD /* GithubService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F583C424BBC7B20004C2DD /* GithubService.swift */; };
 		50F583C724BBD1910004C2DD /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F583C624BBD1910004C2DD /* UIImageView+Extension.swift */; };
+		50F583CA24BBD8470004C2DD /* DateFormatterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F583C924BBD8470004C2DD /* DateFormatterHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		50F583C024BBBE8B0004C2DD /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
 		50F583C424BBC7B20004C2DD /* GithubService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubService.swift; sourceTree = "<group>"; };
 		50F583C624BBD1910004C2DD /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		50F583C924BBD8470004C2DD /* DateFormatterHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				50F5839A24BBABB80004C2DD /* Info.plist */,
 				50F583AE24BBABC40004C2DD /* App */,
 				50F583BF24BBBE310004C2DD /* Extensions */,
+				50F583C824BBD82C0004C2DD /* Helper */,
 				50F583B024BBAC600004C2DD /* Model */,
 				50F583AF24BBABE10004C2DD /* Scenes */,
 				50F583C424BBC7B20004C2DD /* GithubService.swift */,
@@ -169,6 +172,14 @@
 				50F583C624BBD1910004C2DD /* UIImageView+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		50F583C824BBD82C0004C2DD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				50F583C924BBD8470004C2DD /* DateFormatterHelper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +291,7 @@
 				50F583B924BBAFB30004C2DD /* LatestCommitsTableViewCell.swift in Sources */,
 				50F583BC24BBB4BB0004C2DD /* NetworkManager.swift in Sources */,
 				50F583B624BBAEEB0004C2DD /* LatestCommitsViewController.swift in Sources */,
+				50F583CA24BBD8470004C2DD /* DateFormatterHelper.swift in Sources */,
 				50F583BE24BBB99C0004C2DD /* CustomHttpError.swift in Sources */,
 				50F583B224BBAC8F0004C2DD /* GithubCommitResponseModel.swift in Sources */,
 				50F5838F24BBABB60004C2DD /* SceneDelegate.swift in Sources */,

@@ -15,7 +15,7 @@ class LatestCommitsTableViewCell: UITableViewCell {
     
     func configureCell(with data: GithubCommitResponse) {
         authorLabel.text = data.commit?.author?.name
-        timeLabel.text = data.commit?.author?.date
+        timeLabel.text = DateFormatterHelper.timeAgoFormat(date: DateFormatterHelper.stringToDate(date: data.commit?.author?.date ?? ""))
         cellImage.loadImageAsync(from: URL(string: data.committer?.avatar_url ?? ""))
     }
     

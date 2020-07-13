@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50DEB6BE24BBE48A00A3AF4E /* SOLUTION.md in Resources */ = {isa = PBXBuildFile; fileRef = 50DEB6BD24BBE48A00A3AF4E /* SOLUTION.md */; };
 		50F5838D24BBABB60004C2DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5838C24BBABB60004C2DD /* AppDelegate.swift */; };
 		50F5838F24BBABB60004C2DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F5838E24BBABB60004C2DD /* SceneDelegate.swift */; };
 		50F5839424BBABB60004C2DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F5839224BBABB60004C2DD /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50DEB6BD24BBE48A00A3AF4E /* SOLUTION.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SOLUTION.md; sourceTree = "<group>"; };
 		50F5838924BBABB60004C2DD /* BankWithMintAdebiyi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankWithMintAdebiyi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F5838C24BBABB60004C2DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50F5838E24BBABB60004C2DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		50F5838024BBABB50004C2DD = {
 			isa = PBXGroup;
 			children = (
+				50DEB6BD24BBE48A00A3AF4E /* SOLUTION.md */,
 				50F5838B24BBABB60004C2DD /* BankWithMintAdebiyi */,
 				50F583A224BBABB80004C2DD /* BankWithMintAdebiyiTests */,
 				50F5838A24BBABB60004C2DD /* Products */,
@@ -274,6 +277,7 @@
 				50F5839924BBABB80004C2DD /* LaunchScreen.storyboard in Resources */,
 				50F5839624BBABB80004C2DD /* Assets.xcassets in Resources */,
 				50F5839424BBABB60004C2DD /* Main.storyboard in Resources */,
+				50DEB6BE24BBE48A00A3AF4E /* SOLUTION.md in Resources */,
 				50F583BA24BBAFB30004C2DD /* LatestCommitsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,8 @@ import Foundation
 struct DateFormatterHelper {
     static func stringToDate(date:String) -> Date {
         let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "YYYY-MM-DDTHH:MM:SSZ"
+        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
+        print("\(date) \(dateFormatter.date(from: date))")
         return dateFormatter.date(from: date) ?? Date()
         
     }
